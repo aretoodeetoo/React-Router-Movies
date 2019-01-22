@@ -47,7 +47,7 @@ export default class Movie extends Component {
     return (
       <div>
     <MovieCard movie={this.state.movie} />
-    <button onClick={this.saveMovie}>Save This Movie!</button>
+    <button style={{width: 150, height: 40, fontSize: 14, backgroundColor: '#74CDFD'}} onClick={this.saveMovie}>Save This Movie!</button>
     </div>
     );
   }

@@ -6,11 +6,6 @@ export default class SavedList extends Component {
     super(props);
   }
 
-  // const homeButton = (e) => {
-  //   e.preventDefault();
-  //   props.history.push('/');
-  // }
-
   render() {
     return (
       <div className="saved-list">
